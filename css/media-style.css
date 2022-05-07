@@ -1,0 +1,48 @@
+/* Extra Small */
+@media (max-width: 767px) {
+    #mouse-circle{
+        display: none;
+    }
+    .up{
+        display: none;
+    }
+    .popup .inner{
+        width: 95%;
+    }
+    .popup .inner ul{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Small */
+@media (min-width: 768px) {
+    header h1{
+        flex-direction: row;
+        font-size: 6rem;
+    }
+    .title{
+        font-size: 6rem;
+    }
+    .about-us {
+        text-align: left;
+    }
+    .about-us img{
+        width: 90%;
+    }
+    .our-achivement .title{
+        font-size: 6rem;
+    }
+}
+
+/* Medeium */
+@media (max-width: 991px) {
+}
+
+/* Large */
+@media (min-width: 929px) {
+}
+
+/* Extra Large */
+@media (min-width: 1200px) {
+}
